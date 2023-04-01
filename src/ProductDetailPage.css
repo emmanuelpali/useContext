@@ -1,0 +1,27 @@
+.product-detail-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+.scrolling-images-container {
+    display: flex;
+    overflow-x: hidden;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .scrolling-image {
+    margin-right: 10px;
+  }
+  
